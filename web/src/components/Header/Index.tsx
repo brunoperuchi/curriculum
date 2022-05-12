@@ -1,5 +1,5 @@
-import { InfoHeader } from "./InfoHeader";
-import { NavHeader } from "./NavHeader";
+import { InfoHeader } from "./Content/InfoHeader";
+import { NavHeader } from "./Content/NavHeader";
 
 export function Header() {
   return (

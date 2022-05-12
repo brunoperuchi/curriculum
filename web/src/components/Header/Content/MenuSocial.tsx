@@ -26,7 +26,7 @@ export function MenuSocial() {
         Social
         <CaretDown />
       </Popover.Button>
-      <Popover.Panel className="flex flex-col gap-1 z-10 p-1 bg-zinc-700 rounded-md mt-1 shadow-lg">
+      <Popover.Panel className="absolute mt-8 flex flex-col gap-1 z-10 p-1 bg-zinc-700 rounded-md shadow-lg">
         { menuItems.map((item) => (
           <a
             key={item.name}
