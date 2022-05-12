@@ -22,17 +22,17 @@ const menuItems = [
 export function MenuSocial() {
   return (
     <Popover className="flex flex-col items-start">
-      <Popover.Button className="flex items-center gap-2 px-2 py-1 mt-1 rounded-md border-2 border-transparent hover:border-purple-800 focus:border-purple-800 focus:outline-none transition-colors">
+      <Popover.Button className="text-xs flex items-center gap-1 px-2 py-1 rounded-md border-2 border-zinc-700 hover:border-purple-800 focus:border-purple-800 focus:outline-none transition-colors">
         Social
         <CaretDown />
       </Popover.Button>
-      <Popover.Panel className="flex flex-col gap-1 first-letter:z-10 p-2 bg-zinc-700 rounded-md mt-1 shadow-lg">
-        {menuItems.map((item) => (
+      <Popover.Panel className="flex flex-col gap-1 z-10 p-1 bg-zinc-700 rounded-md mt-1 shadow-lg">
+        { menuItems.map((item) => (
           <a
             key={item.name}
             href={item.href}
             target="_blank"
-            className="flex items-center gap-2 p-1 rounded-md border-2 border-transparent hover:bg-purple-800 focus:bg-purple-800 focus:outline-none transition-colors"
+            className="text-sm flex items-center gap-1 rounded-sm border-2 border-transparent hover:bg-purple-800 focus:bg-purple-800 focus:outline-none transition-colors"
           >
             {item.icon}
             {item.name}

@@ -1,8 +1,12 @@
 import { Header } from "./components/Header";
+import { Skills } from "./components/Skills";
 
 export function App() {
   return (
-    <Header />
+    <>
+      <Header />
+      <Skills />
+    </>
   );
 }
 
