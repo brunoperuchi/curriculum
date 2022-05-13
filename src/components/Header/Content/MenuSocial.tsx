@@ -32,7 +32,7 @@ export function MenuSocial() {
             key={item.name}
             href={item.href}
             target="_blank"
-            className="text-sm flex items-center gap-1 rounded-sm border-2 border-transparent hover:bg-purple-800 focus:bg-purple-800 focus:outline-none transition-colors"
+            className="text-sm flex items-center gap-1 rounded-md border-2 border-transparent hover:bg-purple-800 focus:bg-purple-800 focus:outline-none transition-colors"
           >
             {item.icon}
             {item.name}
