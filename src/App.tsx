@@ -1,3 +1,4 @@
+import { About } from "./components/About";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header/Index";
 import { Home } from "./components/Home";
@@ -8,6 +9,7 @@ export function App() {
     <>
       <Header />
       <Home />
+      <About />
       <Skills />
       <Footer />
     </>
