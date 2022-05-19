@@ -6,7 +6,7 @@ export function InfoHeader() {
       <img
         src="https://avatars.githubusercontent.com/u/69209246?v=4"
         alt="Author photo"
-        className="w-20 h-20 rounded-full border-2 border-transparent hover:border-purple-800 transition-colors"
+        className="w-16 h-16 rounded-full border-2 border-transparent hover:border-purple-800 transition-colors"
       />
 
       <div className="flex flex-col items-center">
