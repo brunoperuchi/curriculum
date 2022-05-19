@@ -50,11 +50,11 @@ export function Skills() {
       <h1 className='text-center text-zinc-100 md:text-2xl font-bold mt-2'>
         Tech Skills
       </h1>
-      <div className='w-full flex flex-wrap gap-2 md:gap-4 p-1 md:p-4 items-center justify-center'>
+      <div className='w-full flex flex-wrap gap-1 md:gap-4 p-1 md:p-4 items-center justify-center'>
         { techSkills.map((skill) => (
           <div
             key={skill.name}
-            className="bg-zinc-800 w-28 md:w-44 h-24 md:h-32 transition-all rounded-md p-4 flex flex-col gap-2 items-center justify-center shadow-md hover:bg-gradient-to-t from-purple-800"
+            className="bg-zinc-800 w-28 md:w-44 h-24 md:h-32 transition-all rounded-md flex flex-col gap-2 items-center justify-center shadow-md hover:bg-purple-900"
           >
             <p className="text-zinc-100 text-sm text-center">
               {skill.name}
