@@ -47,23 +47,23 @@ const techSkills = [
 export function Skills() {
   return (
     <section>
-      <h1 className='text-center text-zinc-100 md:text-2xl font-bold mt-2'>
+      <h1 className='text-center text-zinc-100 md:text-2xl font-bold mt-2 mb-4'>
         Tech Skills
       </h1>
-      <div className='w-full flex flex-wrap gap-1 md:gap-4 p-1 md:p-4 items-center justify-center'>
+      <div className='m-auto w-[90%] grid gap-3 md:gap-6 grid-cols-3 justify-items-center'>
         { techSkills.map((skill) => (
           <div
             key={skill.name}
-            className="bg-zinc-800 w-28 md:w-44 h-24 md:h-32 transition-all rounded-md flex flex-col gap-2 items-center justify-center shadow-md hover:bg-purple-900"
+            className="bg-zinc-800 w-full p-2 md:p-5 grid gap-2 md:gap-4 grid-row-2 justify-items-center transition-all rounded-md border-2 border-purple-800 shadow-md"
           >
-            <p className="text-zinc-100 text-sm text-center">
-              {skill.name}
-            </p>
             <img
               src={skill.src}
               alt={skill.alt}
-              className="h-10 md:h-14 transition-all"
+              className="h-10 md:h-28 transition-all"
             />
+            <p className="text-zinc-100 font-semibold text-xs md:text-lg text-center border-t-2 border-purple-800">
+              {skill.name}
+            </p>
           </div>
         ))}
       </div>
