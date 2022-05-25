@@ -5,10 +5,10 @@ export function Home() {
     <section className='w-full pt-36 mb-5 flex flex-row flex-wrap-reverse items-center justify-around'>
       <div className='m-1 text-center'>
         <h1 className='text-lg md:text-2xl text-purple-800'>
-        👋🏻 Hello, i'm <strong>Bruno Paulino Peruchi</strong>.
+        👋🏻 Hello there, my name is <strong>Bruno Paulino Peruchi</strong>.
         </h1>
         <p className='text-sm md:text-lg text-zinc-100'>
-          Web Developer
+          Full-Stack Developer
         </p>
       </div>
       <img
