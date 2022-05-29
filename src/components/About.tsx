@@ -18,13 +18,16 @@ const textsAbout = [
 export function About() {
   return(
     <section>
-      <h1 className='text-center text-zinc-100 md:text-2xl font-bold mt-2 mb-4'>
+      <h1 className='text-center text-zinc-100 md:text-2xl font-bold mb-4'>
         About
       </h1>
       <div className='m-auto w-[90%] grid gap-3 md:gap-6 sm:grid-cols-2 justify-items-center'>
         { textsAbout.map((info) => (
-          <div className="bg-zinc-800 w-full p-2 md:p-5 flex flex-col items-center transition-all rounded-md border-2 border-purple-800 shadow-md">
-            <h2 className='text-zinc-100 text-sm md:text-lg font-bold border-b-2 border-purple-800'>
+          <div
+            key={info.title}
+            className="bg-zinc-800 w-full p-2 md:p-5 flex flex-col items-center transition-all rounded-md border-2 border-purple-800 shadow-md"
+          >
+            <h2 className='text-zinc-100 text-sm md:text-lg font-bold mb-2 border-b-2 border-purple-800'>
               {info.title}
             </h2>
             <p className="text-zinc-100 text-xs md:text-sm text-justify">
