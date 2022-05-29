@@ -20,7 +20,7 @@ export function NavHeader() {
         <a 
           key={item.name}
           href={item.href}
-          className="text-sm rounded-sm border-b-2 border-zinc-700 hover:border-purple-800 focus:border-purple-800 focus:outline-none transition-colors"
+          className="p-1 text-sm rounded-sm border-b-2 border-zinc-700 hover:border-purple-800 focus:border-purple-800 focus:outline-none transition-colors"
         >
           {item.name}
         </a>
