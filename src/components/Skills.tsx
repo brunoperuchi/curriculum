@@ -46,7 +46,10 @@ const techSkills = [
 
 export function Skills() {
   return (
-    <section>
+    <section
+      id="skills"
+      className="pt-12 md:pt-20"
+    >
       <h1 className='text-center text-zinc-100 md:text-2xl font-bold mt-2 mb-4'>
         Tech Skills
       </h1>
