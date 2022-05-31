@@ -22,9 +22,9 @@ const menuItems = [
 export function MenuSocial() {
   return (
     <Popover className="flex flex-col items-start">
-      <Popover.Button className="text-sm flex items-center gap-1 px-1 py-0 rounded-sm border-t-2 border-zinc-700 hover:border-purple-800 focus:border-purple-800 focus:outline-none transition-colors">
+      <Popover.Button className="text-xs text-zinc-400 flex items-center gap-1 px-1 rounded-sm border-t-2 border-zinc-700 hover:border-purple-800 focus:border-purple-800 focus:outline-none transition-colors">
         Social
-        <CaretDown />
+        <CaretDown className="text-purple-500" />
       </Popover.Button>
       <Popover.Panel className="absolute mt-6 flex flex-col gap-1 z-10 p-1 bg-zinc-700 rounded-sm shadow-lg">
         { menuItems.map((item) => (
