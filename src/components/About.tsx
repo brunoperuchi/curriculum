@@ -19,7 +19,7 @@ export function About() {
   return(
     <section
       id="about"
-      className="pt-28 md:pt-20"
+      className="pt-24 md:pt-20"
     >
       <h1 className='text-center text-zinc-100 md:text-2xl font-bold mb-4'>
         About
