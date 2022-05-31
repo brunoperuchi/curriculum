@@ -64,7 +64,7 @@ export function Skills() {
               alt={skill.alt}
               className="h-10 md:h-28 transition-all"
             />
-            <p className="text-zinc-100 font-semibold text-xs md:text-lg text-center border-t-2 border-purple-800">
+            <p className="text-zinc-100 font-semibold text-sm md:text-lg text-center border-t-2 border-purple-800">
               {skill.name}
             </p>
           </div>

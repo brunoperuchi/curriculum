@@ -33,7 +33,7 @@ export function About() {
             <h2 className='text-zinc-100 text-sm md:text-lg font-bold mb-2 border-b-2 border-purple-800'>
               {info.title}
             </h2>
-            <p className="text-zinc-100 text-xs md:text-sm text-justify">
+            <p className="text-zinc-100 text-sm text-justify">
               {info.text}
             </p>
           </div>
