@@ -4,9 +4,9 @@ export function Home() {
   return (
     <section
       id="home"
-      className='w-full pt-36 flex flex-row flex-wrap-reverse items-center justify-around'
+      className='m-auto w-[90%] pt-28 grid gap-4 md:gap-6 sm:grid-cols-2 items-center justify-items-center'
     >
-      <div className='m-1 text-center'>
+      <div className='text-center'>
         <h1 className='text-lg md:text-2xl text-purple-800'>
         👋🏻 Hello there, my name is <strong>Bruno Paulino Peruchi</strong>.
         </h1>
@@ -17,7 +17,7 @@ export function Home() {
       <img
         src={homePhoto}
         alt="Bruno Peruchi photo"
-        className='h-36 md:h-64 w-36 md:w-64 m-1 rounded-full border-2 border-purple-800 shadow-md md:shadow-lg'
+        className='h-36 md:h-64 w-36 md:w-64 rounded-full border-2 border-purple-800 shadow-md md:shadow-lg'
       />
     </section>
   );
